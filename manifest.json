@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit source image viewer",
+  "version": "1.0",
+  "description": "Redirect preview to i",
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "*://*.redd.it/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "redirect-rules.json"
+      }
+    ]
+  }
+}

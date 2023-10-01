@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "condition": {
+      "regexFilter": "^https?://preview\\.redd\\.it([^?]+)\\??(.*)(s=[^&=?]+)(.*)$",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://i.redd.it\\1?\\3"
+      }
+    }
+  }
+]
