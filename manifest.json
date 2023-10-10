@@ -14,7 +14,7 @@
       {
         "id": "ruleset",
         "enabled": true,
-        "path": "redirect-rules.json"
+        "path": "rules.json"
       }
     ]
   }
