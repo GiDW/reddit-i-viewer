@@ -17,5 +17,10 @@
         "path": "rules.json"
       }
     ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{620c827e-c167-48f7-b50a-bc4cde77d436}"
+    }
   }
 }
